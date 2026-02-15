@@ -1,0 +1,709 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+height: 110rem;
+width: 100%;
+
+background-image: url('../images/blackbg.jpg');
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.fotterpart
+{
+    height: 3rem;
+    width:auto;
+  
+   display: flex;
+ 
+ justify-content: space-around;
+ z-index: 10000;
+ 
+
+ 
+    
+   
+}
+.elements{
+    height: 3rem;
+    width: 20rem;
+
+background: #101010;
+    /* background-color: rgba(36, 34, 34, 0.568); */
+    display: flex;
+    border-radius: 1.6rem;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+   
+
+
+    /* transition: transform 0.2s; */
+
+}
+
+
+.nav-hideen{
+    position: fixed;
+    height: 3rem;
+    width: 20rem;
+margin-top: -1.5rem;
+margin-left: -10rem;
+background: #101010;
+    /* background-color: rgba(36, 34, 34, 0.568); */
+   
+    border-radius: 1.6rem;
+  
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+}
+
+.help2{
+    height: 100%;
+    width: 50rem;
+   
+    align-content: center;
+    justify-items: center;
+    
+    
+}
+.help1{
+    height: 100%;
+    width: 20rem;
+   
+    align-content: center;
+    justify-items: center;
+}
+
+.elements  a{
+text-decoration: none;
+
+color: white;
+font-size: medium;
+font-family  :'Times New Roman', Times, serif;
+ position: relative;
+ 
+
+
+}
+.logo{
+      height: 3rem;
+    width: 10rem;
+    
+    background:url('../images/OD.jpg');
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: screen;
+}
+.help{
+       height: 2rem;
+    width: 8rem;
+    border: 1px solid white; 
+   border-radius: 0.9rem;
+  
+  align-content: center;
+  background-color: white;
+  margin: 0.5rem;
+ 
+
+
+}
+.help a {
+    color: black;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+.help:hover{
+
+    
+    background:#181818;
+    color: white;
+    border: none;
+     box-shadow: rgba(248, 244, 244, 0.719) 0px 3px 8px;
+}
+.help:hover a{
+
+    
+   
+    color: white;
+
+}
+
+
+a::after{
+    content: '';
+    position: absolute;
+    background-color: #f5f4f4;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    display: block; 
+    transition: 0.2s;
+
+}
+
+
+.a1:hover::after{
+    width: 45px;
+}
+
+.a2:hover::after{
+    width: 80px;
+}
+
+.a3:hover::after{
+    width: 45px;
+}
+
+.mainheading{
+
+height: 10rem;
+width: auto;
+justify-items: center;
+align-content: center;
+overflow: hidden;
+}
+.mainheading h1{
+position: relative;
+font-size: 3.5rem;
+font-family: sans-serif font like Arial, Helvetica, or Verdana;
+font-family: 'Times New Roman', Times, serif;
+color: white;
+
+/* background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.979)60% , rgba(243, 242, 242, 0.712)10%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text; */
+z-index: 1;
+animation: showno  linear forwards;
+animation-delay: 7s;
+
+}
+@keyframes showno {
+    100%{
+        display: none;
+    }
+}
+.mainheading h3{
+  
+    font-size: 2.4rem;
+    font-family: sans-serif font like Arial, Helvetica, or Verdana;
+  
+  color: transparent;
+animation: showw linear forwards;
+animation-delay: 8s;
+display: grid;
+
+
+}
+/*only*/
+/* .mainheading h3::before{
+content: '';
+border: 1px solid white;
+left:0;
+border-radius: 1rem;
+width: 9rem;
+height:4rem;
+background-image: linear-gradient(90deg,transparent 0% ,  #080808 5%, #080808 100%);
+animation: anii 5.5s  linear forwards   ;
+animation-delay: 2s;
+
+}
+@keyframes anii{
+    0%{
+        left: 100%;
+    }
+    100%{
+        left:0%;
+    }
+    
+} */
+/*only*/
+
+
+@keyframes showw {
+from{
+  color: transparent;
+    }
+    to{
+        color: rgba(253, 250, 250, 0.884) rgba(0, 0, 0, 0.95); 
+ background-image : linear-gradient(to bottom,rgba(255, 255, 255, 0.979)60% , rgba(243, 242, 242, 0.712)10%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text;
+
+       
+    }
+    
+}
+.mainheading span{
+    color: rgba(247, 11, 11, 0.904);
+}
+.mainheading h1::before{
+content: '';
+position: absolute;
+left: 120%;
+border-radius: 1rem;
+width: 29rem;
+height: 100%;
+background-image: linear-gradient(90deg,transparent 0% ,  #080808 5%, 	#080808 100%);
+animation: ani 5.5s linear forwards;
+
+animation-delay: 2s;
+display: grid;
+}
+
+@keyframes ani {
+    0%{
+        left: 110%;
+    }
+    100%{
+        left: -20%;
+        
+        
+    }
+    
+}
+video{
+    position: absolute;
+    top: 2.6rem;
+    left: 24rem;
+    width: 38rem;
+    height: 10rem;
+    object-fit: cover;
+    z-index: 2;
+  
+    pointer-events: none;
+    mix-blend-mode: screen;
+    animation: showno  linear forwards;
+animation-delay: 7s;
+}
+.fotter{
+    height: 30rem;
+    width: auto;
+    display: flex;
+    background-color: #080808;
+    justify-content: space-between;
+    
+    
+}
+.feedback{
+    height: 30rem;
+    width: 40%;
+    color: #f5f4f4;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    justify-items: center;
+   
+    font-weight: lighter;
+  gap: 1rem;
+}
+
+.instadiv{
+height: 10rem;
+width: 32rem;
+
+display: flex;
+
+}
+.instadiv1{
+    height: 10rem;
+    width: 16rem;
+ 
+  align-content: center;
+  justify-items: center;
+
+}
+.facebook{
+
+    height: 2.3rem;
+    width: 10rem;
+    border-radius: 1rem;
+   background-image: linear-gradient(to bottom, #444343d5 10% ,rgba(22, 21, 21, 0.897) 90%);
+  color: white;
+   font-size: 1rem;
+   
+   align-content: center;
+   justify-items: center;
+   
+}
+
+.facebook .pp{
+    color: white;
+} 
+.facebook:hover{
+    cursor: pointer;
+ /* background-image: linear-gradient(to bottom, #fffdfdf8 10% ,rgba(245, 244, 244, 0.952) 90%); */
+   box-shadow: rgba(253, 251, 251, 0.25) 0px 14px 28px, rgba(247, 246, 246, 0.22) 0px 10px 10px;
+    color: white;
+}
+.facebook:hover p{
+   color: white;
+}
+#submitfeedback{
+  height: 2rem;
+  width: 19rem;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+ 
+ border-radius: 1rem;
+background-image: linear-gradient(to bottom, #444343d5 10% ,rgba(22, 21, 21, 0.897) 90%);
+  color: white;
+align-content: center;
+justify-items: center;
+   
+
+
+}
+#submitfeedback p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+#submitfeedback:hover{
+    cursor: pointer;
+   background-image: linear-gradient(to bottom, #f7f4f4ef 10% ,rgba(252, 249, 249, 0.938) 90%);
+  color: black;
+
+box-shadow: rgba(248, 248, 250, 0.25) 0px 6px 12px -2px, rgba(255, 253, 253, 0.3) 0px 3px 7px -3px;
+
+
+}
+ #submitfeedback:hover p{
+    color: #000;
+   }
+
+.feedback2{
+    height: 30rem;
+    width: 50%;
+  display: flex;
+}
+.feedback p{
+   color: rgb(110, 108, 108);
+   font-size: 15px;
+}
+.link1{
+    height: 10rem;
+    width: 50%;
+    color: white;
+    margin-top: 5rem;
+    
+}
+.link1 li{
+   color: rgb(110, 108, 108);
+   gap: 2rem;
+  
+   
+}
+
+
+.Exdiv{
+
+height: 25.6rem;
+width: auto;
+display: flex;
+justify-content: center;
+/* justify-content: space-evenly; */
+
+gap: 1.5rem;
+}
+.ex1{
+    
+    height: 24rem;
+     background-color: #101010;
+    width: 18rem;
+    border-radius: 1.2rem;
+      box-shadow: rgba(233, 231, 231, 0.486) 0px 3px 5px, rgba(0, 0, 0, 0.23) 0px 3px 5px;
+  color: rgba(228, 227, 227, 0.884);
+font-family: sans-serif;
+font-size: 0.8rem;
+font-weight: lighter;
+    
+}
+.ex1:hover{
+
+    transform: scale(1.04,1.04);
+    box-shadow: rgba(253, 253, 253, 0.534) 0px 5px 15px;
+}
+
+.ex1 h6{
+    
+    color: white;
+font-size: 1.1rem;
+font-family:'Times New Roman', Times, serif;
+font-weight: lighter;
+
+
+
+
+}
+.ex1 p{
+    color: white;
+font-size: 2.5rem;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.ex11{
+    height: 16rem;
+    width: auto;
+    
+border-radius: 1rem 1rem 0 0;
+ background-image: url('../images/gearbg3.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+}
+
+.ex12{
+
+    height: 6rem;
+    width: auto;
+   
+    border-radius: 0 0 1rem 1rem;
+    padding: 1rem;
+}
+/* .video2{
+    position: absolute;
+    top: 100rem;
+    left: 24rem;
+    width: 38rem;
+    height: 20rem;
+    object-fit: cover;
+    z-index: 2;
+  
+    pointer-events: none;
+    mix-blend-mode: screen;
+    animation: showno  linear forwards;
+animation-delay: 7s;
+} */
+
+ .loding{
+
+  height: 16rem;
+  
+ background-color: transparent;
+  display: flex;
+  width: auto;
+
+justify-content: center;
+align-items: end;
+
+
+}
+.loding h3{
+  display: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: small;
+  color: transparent;
+ 
+animation: showw22 linear forwards;
+animation-delay: 6s;
+}
+@keyframes showw22 {
+/* from{
+    display: none;
+    } */
+    to{
+       color: rgba(253, 250, 250, 0.986) ; 
+
+       
+    }
+    
+}
+   .add_more{
+    height: 2rem;
+    width: 3rem;
+    color: white;
+    margin-right: -2rem;
+   
+   
+   }
+    .add_more:hover{
+   cursor: pointer;
+   }
+.loa{
+
+
+    height: 1rem;
+    width: 4rem;
+     display: flex;
+    gap: 15px;
+    animation: showw3 linear forwards;
+animation-delay: 6s;
+    display: none;
+
+    
+}
+@keyframes showw3 {
+from{
+    display: flex;
+    }
+    to{
+      display: none; 
+
+       
+    }
+    
+}
+ 
+ .dots{
+   
+
+    border-radius: 100%;
+    height: 9px ;
+    width: 9px ;
+    background-color: white;
+   
+
+ }
+  
+
+ 
+  /* sdhgsjgdkjsdj */
+ .dots:nth-child(1){
+    animation: loding .6s ease-in-out alternate infinite;
+ }
+  .dots:nth-child(2){
+    animation: loding .6s ease-in-out alternate .2s infinite;
+ }
+  .dots:nth-child(3){
+    animation: loding .6s ease-in-out alternate .4s infinite;
+ }
+ 
+ @keyframes loding {
+    100%{
+        transform: scale(1.7);
+    }
+    
+ }
+.ex11{
+    display: flex;
+    align-content: center;
+    justify-items: center;
+   /* background-image: url('gearbg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center; */
+   
+   
+}
+
+ .gear1{
+height: 100%;
+width: 9rem;
+
+position: relative;
+align-content: center;
+justify-items: end;
+
+
+ }
+ 
+ 
+ .gear3{
+height: 100%;
+
+width: 9rem;
+position: relative;
+ align-content: center;
+ }
+  .gearchild3{
+    height: 4rem;
+    width: 4rem;
+   position: absolute;
+    margin-left: 7rem;
+    margin-top: -3rem;
+  
+    background-image: url('../images/gear16.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: screen;
+    background-position: center;
+    /* background-position-x: 7px;
+    background-position-y:6px ; */
+ 
+  
+ }
+ .gearchild{
+    height: 6rem;
+    width: 6rem;
+  margin-left: 4.5rem;
+    position: absolute;
+  
+    background-image: url('../images/gear8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: screen;
+    background-position: center;
+    /* background-position-x: 7px;
+    background-position-y:6px ; */
+   
+  
+ }
+ .ex1:hover .gearchild{
+animation: rotate2 8S linear infinite;
+
+}
+ .ex1:hover .gearchild1{
+animation: rotate2 8S linear infinite;
+
+} .ex1:hover .gearchild2{
+animation: rotate2 8S linear infinite;
+
+} .ex1:hover .gearchild3{
+animation: rotate2 8S linear infinite;
+
+} 
+ .gearchild1{
+    height: 7rem;
+    width: 7rem;
+   
+    position: absolute;
+    background-position: center;
+   /* background-position: -8PXx;
+   background-position-y:7px ; */
+   background-image: url('../images/gear17.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: screen;
+ 
+    
+   
+   
+ }
+ @keyframes rotate2 {
+    from{
+     transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+    
+ }
+ .gearchild2{
+    height: 6rem;
+    width: 6rem;
+  margin-top: 5.2rem;
+     background-image: url('../images/gear11.jpg');
+   
+     /* background-position-y: -12px;
+     background-position-x:-10px ; */
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: screen;
+  
+    
+ }

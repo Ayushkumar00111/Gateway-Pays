@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.whole_about{
+    height: 100%;
+    width: 100%;
+    
+    
+    
+}
+/* .teratree{
+    background-position: center;
+    background-size: cover; 
+    filter: blur(4px);
+} */
+.contactus{
+    height: 50rem;
+    width: auto;
+}
+.back{
+    height: 2rem;
+    width: 5rem;
+    background:  #181818;
+    border-radius: 0 0 1.1rem 0;
+
+   
+    
+  
+  
+    padding-left: 1rem;
+    box-shadow: rgba(248, 244, 244, 0.692) 0px 3px 8px;
+
+}
+.back_to_home {
+    
+    position: sticky;
+   top:0;
+   z-index: 100000;
+}
+.back_to_home a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding-left: 0rem;
+}
+/* .back_to_home a:hover{ 
+    background: white;
+    color:black;
+    border: 1px solid rgb(41, 40, 40);
+} */
+
+.back:hover{ 
+    background: white;
+    color:black;
+    color: black;
+     box-shadow: rgba(248, 244, 244, 0.226) 0px 3px 8px;
+
+    border: 1px solid rgb(41, 40, 40);
+    border-radius: 0 0 1.1rem 0;
+}
+.back{
+    line-height: 2rem;   
+}
+.headline_of_about  .back {
+    position: sticky;
+    top:0;
+    z-index: 100000;
+   display: flex;
+   justify-content: center;
+   cursor: pointer;
+}
+
+
+h1{
+    font-size: 5rem;
+    color: rgba(253, 250, 250, 0.884) rgba(0, 0, 0, 0.95);
+background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.979)70% , rgba(243, 242, 242, 0.712)10%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip:text;
+    align-items: center;
+    margin-bottom: 3rem;
+ 
+}
+.first_div h1{
+    font-size: 2rem;
+    padding-top: 0.4rem;
+}
+.first_div{
+    height: 3rem;
+    width: 100%;
+    color: white;
+    
+    font-size: 1rem;
+}
+.div_for_2{
+    height: 35rem;
+    width: auto;
+   display: flex;
+  
+}
+.div1{
+    height: 30rem;
+    width: auto;
+   display: flex;
+  
+}
+.forcontant h2{
+  color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-style: oblique;
+}
+.forcontant samp{
+    color: rgb(224, 192, 6);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.forcontant samp{
+    color: white;
+    font-size: 1.5rem;
+}
+.forcontant{
+    margin-top: 1rem;
+    color: rgba(209, 207, 207, 0.808);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.1rem;
+}
+.for_img img{
+    margin-top:  2rem;
+    height: 24rem;
+    width: 40rem;
+    background-position: 0%;
+    background-size: cover;
+    margin-left: 2rem;
+
+}
+.for_img img:hover{
+    transform: scale(1.04,1.04);
+    box-shadow: rgba(252, 252, 253, 0.788) 0px 7px 29px 0px;
+    box-shadow: rgba(246, 246, 248, 0.25) 0px 50px 100px -20px, rgba(252, 251, 251, 0.3) 0px 30px 60px -30px, rgba(252, 253, 253, 0.35) 0px -2px 6px 0px inset;
+}
+.for_img2 img:hover{
+    transform: scale(1.04,1.04);
+    box-shadow: rgba(252, 252, 253, 0.788) 0px 7px 29px 0px;
+    box-shadow: rgba(246, 246, 248, 0.25) 0px 50px 100px -20px, rgba(252, 251, 251, 0.3) 0px 30px 60px -30px, rgba(252, 253, 253, 0.35) 0px -2px 6px 0px inset;
+}
+.for_img2 img{
+    margin-top:  2rem;
+    height: 24rem;
+    width: 40rem;
+    background-position: 0%;
+    background-size: cover;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+.futoor p{
+    line-height: 2.5rem;
+}
+.futoor{
+    height: 4rem;
+    width: auto;
+    background: #181818;
+    color: white;
+   
+  
+}
+.contactus{
+   
+   height: 40rem;
+   align-items: center;
+    display: flex;
+}
+.paraforcons{
+    height: 5rem;
+    width: 80%;
+    color: rgba(255, 255, 255, 0.884);
+   
+    justify-self:center;
+   
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+     font-weight: lighter;
+    justify-items: center;
+
+
+
+
+}
+.contactdiv1{
+    height: 8rem;
+    width: auto;
+   
+    align-items: center;
+    display: flex;
+    gap: 4rem;
+
+}
+.contactdiv2{
+    height: 20rem;
+    width: 15rem;
+    background-color: #181818;
+ box-shadow: rgba(252, 250, 250, 0.288) 1.95px 1.95px 2.6px;
+
+    border-radius: 2rem;
+    
+}
+.contactdiv2:hover{
+     transform: scale(1.04,1.04);
+    box-shadow: rgba(252, 250, 250, 0.945) 0px 5px 15px;
+
+}
+.contactdiv2 :hover .callbu{
+    background:#181818;
+    color: white;
+     box-shadow: rgba(252, 250, 250, 0.568) 0px 5px 15px;
+    
+}
+.contact2{
+    height: 24rem;
+    width: 100%;
+ display: flex;
+  
+    border-radius:1rem ;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.imagecon1{
+    height: 5rem;
+    width: 5rem;
+    mix-blend-mode: screen;
+    border-radius: 50%;
+    margin-left:2rem ;
+    background-image: url('../images/locacion2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imagecon2{
+    height: 5rem;
+    width: 5rem;
+    mix-blend-mode: screen;
+    border-radius: 50%;
+    margin-left:2rem ;
+    background-image: url('../images/email.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imagecon{
+    height: 5rem;
+    width: 5rem;
+    mix-blend-mode: screen;
+    border-radius: 50%;
+    margin-left:2rem ;
+    background-image: url('../images/calling2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imfo h4{
+    color: rgb(252, 251, 251);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+   margin-bottom: .5rem;
+   margin-left: 1rem;
+
+}
+.imfo p{
+    color: rgb(226, 224, 224);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-weight: lighter;
+
+}
+.imfo{
+height: 6rem;
+width: 20rem;
+background: #181818
+;
+box-shadow: rgba(255, 254, 254, 0.253) 0px 3px 8px;
+border-radius:2rem ;
+
+
+gap: 1rem;
+align-content: center;
+
+
+}
+.contact1{
+    height: 24rem;
+    width: 100%;
+ 
+ 
+    border-radius:1rem ;
+}
+
+.imagecall2{
+    height: 7rem;
+    width: 7rem;
+    border: 1px solid white;
+    border-radius: 50%;
+ justify-self: center;
+ background-image: url('../images/callinggirl2.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ mix-blend-mode: screen;
+}
+.imagecall{
+    height: 7rem;
+    width: 7rem;
+    border: 1px solid white;
+    border-radius: 50%;
+ justify-self: center;
+ background-image: url('../images/callingbo3.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ mix-blend-mode: screen;
+}
+.callinfo{
+    height: 12rem;
+    width: auto;
+    
+    justify-content: center;
+
+    justify-items: center;
+    
+}
+.callinfo h4{
+    
+   color: white;
+   justify-self: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: lighter;
+   font-size: 1.2rem;
+   margin-top: .5rem;
+}
+.callinfo p{
+    
+   color: rgba(241, 240, 240, 0.884);
+   justify-self: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: lighter;
+   font-size: 0.9rem;
+   margin-top: .5rem;
+   margin-bottom: 3rem;
+  justify-items: center;
+ 
+}
+.callinfo button{
+    
+   color: rgba(241, 240, 240, 0.884);
+   justify-self: center;
+   height: 2rem;
+   width: 10rem;
+  border-radius: 2rem;
+color: black;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: lighter;
+   font-size: 0.9rem;
+   margin-top: .5rem;
+}
