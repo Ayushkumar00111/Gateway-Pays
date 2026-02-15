@@ -1,3 +1,5 @@
+<img width="1349" height="616" alt="image" src="https://github.com/user-attachments/assets/5a938234-3f82-4eb0-80c3-ee780a42207a" />
+
 # 💳 Gateway-Pays  
 ### Digital Access Platform (2024–2025)
 
@@ -37,6 +39,7 @@ The goal of this project was to design a practical digital subscription model an
 - 🚫 Automatic access expiry after subscription duration
 - 📱 Responsive design
 - 🎨 Clean academic-focused UI
+<img width="1355" height="637" alt="image" src="https://github.com/user-attachments/assets/3c749502-7e61-4d99-80b1-afc26679bc82" />
 
 ---
 
