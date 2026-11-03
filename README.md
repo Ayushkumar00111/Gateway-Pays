@@ -57,8 +57,6 @@ The goal of this project was to design a practical digital subscription model an
 
 2. Open `index.html` in your browser.
 
-No backend setup required.
-
 ---
 
 ## 🎯 What I Learned
